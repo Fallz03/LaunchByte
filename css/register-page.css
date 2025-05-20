@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* font-family: 'Poppins' , sans-serif;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat; */
+
+    height: 100%;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.register-page{
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-box {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-title {
+    margin-bottom: 1.5rem;
+}
+
+
+
+.register-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    margin: 30px 0;
+}
+.register-input::placeholder{
+    color: #655ace;
+}
+.register-input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    color: white;
+}
+
+.register-button{
+    background-color: #655ace;
+    color: white;
+    border: none;
+    transition: box-shadow 0.3s ease;
+    padding: 0.6rem 0;
+}
+
+.register-button:hover {
+    box-shadow: 0 0 15px #655ace, 0 0 40px #655ace;
+  }
