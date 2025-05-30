@@ -19,7 +19,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
                 showConfirmButton: false,
                 timer: 1500
             }).then(() => {
-                window.location.href = ""; // Replace with your homepage
+                window.location.href = "../LaunchByte/dist/pages/home.html"; // Replace with your homepage
             });
         } else {
             Swal.fire({

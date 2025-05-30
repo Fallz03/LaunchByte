@@ -1,0 +1,49 @@
+.app-sidebar{
+    background-color: #1e1f29;
+}
+
+.app-main{
+    background-color: 	#1b1525;
+}
+
+.app-header{
+    background-color: #301c4f;
+    border-bottom: 1px solid purple!important; 
+    
+}
+
+.app-header {
+  --bs-navbar-color: white!important;
+}
+
+.app-content-header{
+    color: #c4b5fd;
+}
+.app-content-header a{
+    color: #c4b5fd !important;
+}
+.app-content-header li{
+    color: white !important;
+}
+
+.app-footer{
+    background: #301c4f!important;
+    border-top: 1px solid purple!important;
+    color: white!important;
+}
+/* And if you want to be sure */
+
+.app-content> .container-fluid  .row > h1{
+    color: #c4b5fd;
+}
+.carousel{
+    background: #1e1f29;
+}
+
+.carousel-item .col-md-2{
+    background: #1e1f29;
+}
+.dataTables_wrapper{
+    color: white;
+}
+/* --bs-navbar-color:  */
